@@ -9,7 +9,7 @@ const timer = setInterval(()=>{
   } else {
     LED.writeSync(0); // make it 0 (off)
   }
-}, 250);
+}, 1000);
  
  
 function switchOff(){
