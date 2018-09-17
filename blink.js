@@ -18,4 +18,4 @@ function switchOff(){
   LED.unexport(); // Unexport GPIO to free resources
 }
  
-setTimeout(switchOff, 10000);
+setTimeout(switchOff, 30000);
